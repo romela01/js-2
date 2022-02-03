@@ -43,7 +43,7 @@ test(user);
 // part4
 let numbers = [10,-3,-43, 50, 6, 7,-234, 8, 63, 11, 6, 3, 9];
 function testing(x){
-    let height = x[0]
+    let height='';
     for(let num of numbers){
         if(num>height){
             height = num;
